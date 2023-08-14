@@ -2,7 +2,7 @@
 
 def makeset(u):
     master[u] = u
-    size[u] = u
+    size[u] = 1
     
 def find(u):
     if master[u] == u:
