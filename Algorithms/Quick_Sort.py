@@ -7,6 +7,7 @@ def partition(arr, l, r):
         if arr[j] <= pivot:
             i += 1
             arr[i], arr[j] = arr[j], arr[i]
+            j += 1
         else:
             j += 1
 
