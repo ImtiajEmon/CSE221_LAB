@@ -22,7 +22,7 @@ def unite(u, v):
         size[u] += size[v]
     else:
         master[u] = v
-        size[v] = size[u]
+        size[v] += size[u]
         
     return True
 #=========================================
